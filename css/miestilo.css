@@ -1,0 +1,40 @@
+body {
+    background: url("https://th.bing.com/th/id/Rb95b9bd2005147162bb53c5bef237ab5?rik=pBaHgJe97XSYFA&pid=ImgRaw");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  input {
+    display: inline-block;
+    border: 1px solid #d1d1d1;
+    outline: none;
+    background: rgba(95, 94, 94, 0.2);
+    padding: 5px 12px;
+    color: #ddd;
+    vertical-align: middle;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-family: "TimesNewRoman";
+  }
+  
+  input.add,input.rem {
+    border-left: 0;
+    cursor: pointer;
+    margin-left: -4px;
+  }
+  
+  table {
+    margin-top: 5px;
+    width: 420px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    background: rgba(95, 94, 94, 0.2);
+    color: #ddd;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
