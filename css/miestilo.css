@@ -1,3 +1,6 @@
+/********************************MEDIDAS UNIVERSALES****************************/
+
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -19,9 +22,13 @@ body {
   background-color:cornflowerblue;
 }
 
+/********************************NAVBAR****************************/
+
 .navbar {
   border-bottom: 1px white solid;
 }
+
+/********************************FORMULARIO****************************/
 
 .formulario {
   padding-top: 12em;
@@ -39,4 +46,14 @@ input {
   text-align: center;
   font-size: 4em;
   font-family: "TimesNewRoman";
+}
+
+/********************************TABLA****************************/
+
+.table {
+  margin-top: 1em;
+}
+
+tbody{
+  background-color: cyan;
 }
