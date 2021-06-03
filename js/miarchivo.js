@@ -1,4 +1,3 @@
-
 ///////////////CALCULO DE AHORRO//////////////
 
 const enviar = document.querySelector(".add");
@@ -16,25 +15,25 @@ function calcular(e) {
     let sueldoReal = ingreso - paraTodaLaVida;
 
     let gastosBasicos = sueldoReal * 0.60;
-    let gustosCortoPlazo = sueldoReal *0.10;
-    let gustosLargoPlazo = sueldoReal *0.10;
-    let emergencias = sueldoReal *0.20;
+    let gustosCortoPlazo = sueldoReal * 0.10;
+    let gustosLargoPlazo = sueldoReal * 0.10;
+    let emergencias = sueldoReal * 0.20;
 
-    console.log(ingreso,paraTodaLaVida,sueldoReal);
+    console.log(ingreso, paraTodaLaVida, sueldoReal);
 
 
-/*
-    console.log(`Tu sueldo es ${ingreso} y vas a ahorra para toda la vida: ${paraTodaLaVida}, con lo que queda podes gastar en: Gastos Basicos:${gastosBasicos},
-    Gustos de largo plazo: ${gustosLargoPlazo}, Gustos de corto plazo: ${gustosCortoPlazo} y para emeregencias esta el coclchon; ${emergencias}`);
-*/
+    /*
+        console.log(`Tu sueldo es ${ingreso} y vas a ahorra para toda la vida: ${paraTodaLaVida}, con lo que queda podes gastar en: Gastos Basicos:${gastosBasicos},
+        Gustos de largo plazo: ${gustosLargoPlazo}, Gustos de corto plazo: ${gustosCortoPlazo} y para emeregencias esta el coclchon; ${emergencias}`);
+    */
 
     //Inserto los datos en la tabla
-  
-    const tabla = document.querySelector (".calculadora");
+
+    const tabla = document.querySelector(".calculadora");
 
 
     var tr = document.querySelector("tr");
-    tr.setAttribute("class","table-secondary");
+    tr.setAttribute("class", "table-secondary");
     tabla.appendChild(tr);
 
     var tr1 = document.createElement("th");
@@ -65,11 +64,11 @@ function calcular(e) {
     td5.textContent = `${emergencias}`;
     tabla.appendChild(td5);
 
-//cancelamos el comportamiento del evento
+    //cancelamos el comportamiento del evento
 
     e.preventDefault();
 
-//obtenemos el elemento desde el cual se disparo el evento
+    //obtenemos el elemento desde el cual se disparo el evento
 
     let miformulario = e.target
 
