@@ -2,7 +2,7 @@
 
 .table {
   margin-top: 1em;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 tbody {
@@ -10,5 +10,22 @@ tbody {
 
   td {
     height: 2em;
+  }
+}
+
+/* * * * * * * * * * * MEDIA QUERIES * * * * * * * * * * * * */
+
+/* IPAD */
+
+@media (min-width: 1px) and (max-width: 991.98px) {
+  .tabla{
+    display: flex;
+    justify-content: center;
+    padding: none;
+    margin: none;
+  }
+  .table{
+    padding: none;
+    margin: none;
   }
 }

@@ -11,3 +11,30 @@ img {
     display: flex;
     width: 40em;
 }
+
+/* * * * * * * * * * * MEDIA QUERIES * * * * * * * * * * * * */
+
+/* IPAD */
+
+@media (min-width: 1px) and (max-width: 991.98px) {
+    img {
+        justify-content: center;
+        width: 22em;
+        align-items: center;
+    }
+}
+
+/* COMPUTADORA CHICA */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    img {
+        width: 30em;
+        align-self: center;
+    }
+    .about {
+        display: flex;
+    
+        align-items: center;
+        justify-content: center;
+    }
+}
