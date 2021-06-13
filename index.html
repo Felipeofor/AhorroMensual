@@ -7,45 +7,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/miestilo.css">
-  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Calculadora de ahorro</title>
 </head>
 
 <body>
 
   <!--------------------------------------HEADER-------------------------------------->
 
-  <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg border-bottom border-danger navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Calculadora de ahorro</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="https://felipeofor.github.io/AhorroMensual/">Calculadora de ahorro</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav ">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#table">Calcular</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+            <a class="nav-link" href="#glosario">Glosario</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
@@ -53,34 +42,207 @@
   </nav>
 
   <!--------------------------------------FORMULARIO-------------------------------------->
-
-  <form class="conteiner text-center formulario">
-    <input type="number" id="number" name="">
-    <input type="submit" value="Enviar" class="add" id="submit" required />
+  <h1>Calculadora de ahorro</h1>
+  <form class="row justify-content-md-center">
+    <div class="input-group col col-lg-2 formulario">
+      <input type="number" class="form-control number" id="floatingInput" placeholder="Ingrese un valor">
+      <input type="submit" value="Enviar" class="add" id="submit" required />
+    </div>
   </form>
 
   <!--------------------------------------TABLA-------------------------------------->
 
-  <table class="container table table-primary">
+  <table class="table-responsive table table-primary">
     <thead>
-      <tr>
-        <th>#</th>
-        <th>Ingreso</th>
-        <th>Para toda la vida</th>
-        <th>Gastos basicos</th>
-        <th>Gustos de largo plazo</th>
-        <th>Gustos de corto plazo</th>
-        <th>Emergencias</th>
+      <tr class="table-danger">
+        <th scope="col">Ingreso</th>
+        <th scope="col">Para toda la vida</th>
+        <th scope="col">Gastos basicos</th>
+        <th scope="col">Gustos de largo plazo</th>
+        <th scope="col">Gustos de corto plazo</th>
+        <th scope="col">Emergencias</th>
       </tr>
     </thead>
     <tbody class="calculadora">
-
+      <tr>
+        <td class="td1"></td>
+        <td class="td2"></td>
+        <td class="td3"></td>
+        <td class="td4"></td>
+        <td class="td5"></td>
+        <td class="td6"></td>
+      </tr>
     </tbody>
-
   </table>
 
+  <!--------------------------------------ABOUT SECTION-------------------------------------->
 
-  <script src="js/miarchivo.js"></script>
+  <section class="about" id="about">
+    <div class="conteiner col-lg-6 py-3 bd-highlight d-inline-block aboutText" data-aos="fade-right"
+      data-aos-duration="2500">
+      <div class="conteiner col-lg-10">
+        <h1 class="mb-3">¿Por que ahorrar?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit pariatur nemo ratione labore perferendis,
+          sapiente commodi necessitatibus reprehenderit earum, sequi fugit doloribus est voluptas, delectus voluptate
+          eveniet numquam deserunt accusamus.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, placeat. Cumque totam officia reiciendis
+          reprehenderit natus atque dignissimos blanditiis, delectus vero voluptate magnam culpa nostrum optio et dolore
+          non corrupti.
+        </p>
+      </div>
+    </div>
+
+      <img src="https://s03.s3c.es/imag/_v0/770x420/d/3/c/ahorrar-dinero-dreamstime.jpg" alt="alcancía">
+
+    </section>
+
+    <!--------------------------------------GLOSARIO-------------------------------------->
+
+    <section class="glosario" id="glosario">
+
+      <h2 class="sub_title">Glosario</h2>
+
+      <h3>Ingreso</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita earum facilis repellendus odit, dolor
+        perspiciatis. Obcaecati quisquam quia in amet hic, soluta aliquid illo, cum eius dolore beatae accusantium
+        impedit?</p>
+
+      <h3>Para toda la vida</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita earum facilis repellendus odit, dolor
+        perspiciatis. Obcaecati quisquam quia in amet hic, soluta aliquid illo, cum eius dolore beatae accusantium
+        impedit?</p>
+
+      <h3>Gastos Basicos</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita earum facilis repellendus odit, dolor
+        perspiciatis. Obcaecati quisquam quia in amet hic, soluta aliquid illo, cum eius dolore beatae accusantium
+        impedit?</p>
+
+      <h3>Gustos de corto plazo</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita earum facilis repellendus odit, dolor
+        perspiciatis. Obcaecati quisquam quia in amet hic, soluta aliquid illo, cum eius dolore beatae accusantium
+        impedit?</p>
+
+      <h3>Gustos de largo plazo</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita earum facilis repellendus odit, dolor
+        perspiciatis. Obcaecati quisquam quia in amet hic, soluta aliquid illo, cum eius dolore beatae accusantium
+        impedit?</p>
+
+      <h3>Emergencias</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita earum facilis repellendus odit, dolor
+        perspiciatis. Obcaecati quisquam quia in amet hic, soluta aliquid illo, cum eius dolore beatae accusantium
+        impedit?</p>
+
+    </section>
+
+    <!--------------------------------------CONTACT SECTION-------------------------------------->
+
+    <section class="mb-5 contacto" id="contacto">
+      <h2 class="mb-5 text-center">Contactame</h2>
+      <div class="row contactBlock">
+        <div class="d-flex flex-column justify-content-center col-lg-6 contactInfo" data-aos="fade-down-right"
+          data-aos-duration="2500">
+          <div class="d-flex ms-5 contactText">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="52" height="52"
+              viewBox="0 0 24 24" stroke-width="1.5" stroke="#1c246c" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+            </svg>
+            <div class="ms-4 datos">
+              <p>Celular</p>
+              <p>+54-11-5995-5385</p>
+            </div>
+          </div>
+          <div class="d-flex ms-5 contactText">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="52" height="52"
+              viewBox="0 0 24 24" stroke-width="1.5" stroke="#1c246c" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <rect x="3" y="5" width="18" height="14" rx="2" />
+              <polyline points="3 7 12 13 21 7" />
+            </svg>
+            <div class="ms-4 datos">
+              <p>Email</p>
+              <p>felipeofor@gmail.com</p>
+            </div>
+          </div>
+          <div class="d-flex ms-5 contactText">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="52" height="52"
+              viewBox="0 0 24 24" stroke-width="1.5" stroke="#1c246c" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <circle cx="12" cy="11" r="3" />
+              <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+            </svg>
+            <div class="ms-4 datos">
+              <p>Ubicación</p>
+              <p>Buenos Aires, Argentina</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="d-flex-column justify-content-center col-lg-6 ">
+          <form class="d-flex flex-column justify-content-center col-lg-8 contactForm" data-aos="fade-up-left"
+            data-aos-duration="2500">
+
+
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="Username"
+                aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username"
+                aria-describedby="basic-addon2">
+            </div>
+
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" id="basic-url" placeholder="Asunto"
+                aria-describedby="basic-addon3">
+            </div>
+
+            <div class="input-group">
+              <textarea class="form-control" placeholder="Ahora te toca a ti contarme algo"
+                aria-label="With textarea"></textarea>
+            </div>
+            <div class="col-12 pt-2">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+        </div>
+        </form>
+      </div>
+    </section>
+
+    <!--------------------------------------FOOTER SECTION-------------------------------------->
+
+    <footer>
+
+      <nav class="navbar navbar-expand-lg border-top border-danger navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse d-flex  justify-content-center" id="navbarNav">
+            <p>Copyright &#169; 2021 Ramos Felipe.</p>
+          </div>
+        </div>
+      </nav>
+
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="js/miarchivo.js"></script>
 </body>
 
 </html>

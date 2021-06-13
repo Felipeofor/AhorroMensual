@@ -1,0 +1,93 @@
+/********************************FORMULARIO****************************/
+.formulario {
+  margin-top: 8em;
+}
+
+input {
+  border: 1px solid #d1d1d1;
+  outline: none;
+  background: rgba(95, 94, 94, 0.2);
+  background-color: #d400b8;
+  line-height: 2em;
+  text-align: center;
+  font-size: 2em;
+  font-family: "TimesNewRoman";
+}
+
+/********************************NAVBAR****************************/
+.navbar {
+  border-bottom: 1px white solid;
+}
+
+/********************************TABLA****************************/
+.table {
+  margin-top: 1em;
+  flex-wrap: wrap;
+}
+
+tbody {
+  background-color: cyan;
+}
+tbody td {
+  height: 2em;
+}
+
+/********************************MEDIDAS UNIVERSALES****************************/
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  margin: auto;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+h1, h3, h2 {
+  text-align: center;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4em 0 4em 0;
+  margin: 4em 0 0 0;
+  background-color: bisque;
+}
+
+img {
+  display: flex;
+  width: 40em;
+}
+
+.glosario {
+  padding: 1em 0 3em 0;
+}
+
+p {
+  justify-content: center;
+  text-align: center;
+}
+
+.sub_title {
+  text-align: start;
+  padding-left: 10em;
+}
+
+.contacto {
+  background-color: antiquewhite;
+  padding: 1em 0 4em 0;
+}
+
+/*# sourceMappingURL=style.css.map */
