@@ -1,5 +1,11 @@
+$azul: rgb(21, 0, 80);
+$violeta: rgb(63, 0, 113);
+$violeta_claro: rgb(97, 0, 148);
+$negro: rgb(0, 0, 0);
+
 .glosario {
     padding: 1em 0 3em 0;
+    background-color: $violeta_claro;
 }
 
 p {
@@ -8,6 +14,6 @@ p {
 }
 
 .sub_title {
-    text-align: start;
-    padding-left: 10em;
+    display:flex;
+    text-align: center;
 }

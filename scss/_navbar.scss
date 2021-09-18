@@ -1,5 +1,10 @@
 /********************************NAVBAR****************************/
+$azul: rgb(21, 0, 80);
+$violeta: rgb(63, 0, 113);
+$violeta_claro: rgb(97, 0, 148);
+$negro: rgb(0, 0, 0);
 
 .navbar {
-    border-bottom: 1px white solid;
+    border-bottom: 1px $negro solid;
+    background-color: $azul;
   }

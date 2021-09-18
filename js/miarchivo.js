@@ -24,25 +24,25 @@ function calcular(e) {
     //Inserto los datos en la tabla
 
 
-    const th4 = document.querySelector(".td1");
-    th4.textContent = `${ingreso}`;
+    // const th4 = document.querySelector(".td1");
+    // th4.textContent = `${ingreso}`;
 
 
     const td1 = document.querySelector(".td2");
-    td1.textContent = `${paraTodaLaVida}`;
+    td1.textContent = `$${paraTodaLaVida}`;
 
 
     const td2 = document.querySelector(".td3");
-    td2.textContent = `${gastosBasicos}`;
+    td2.textContent = `$${gastosBasicos}`;
 
     const td3 = document.querySelector(".td4");
-    td3.textContent = `${gustosLargoPlazo}`;
+    td3.textContent = `$${gustosLargoPlazo}`;
 
     const td4 = document.querySelector(".td5");
-    td4.textContent = `${gustosCortoPlazo}`;
+    td4.textContent = `$${gustosCortoPlazo}`;
 
     const td5 = document.querySelector(".td6");
-    td5.textContent = `${emergencias}`;
+    td5.textContent = `$${emergencias}`;
 
     //cancelamos el comportamiento del evento
 

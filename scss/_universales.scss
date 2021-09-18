@@ -1,11 +1,13 @@
 /********************************MEDIDAS UNIVERSALES****************************/
-
+$azul: rgb(21, 0, 80);
+$violeta: rgb(63, 0, 113);
+$violeta_claro: rgb(97, 0, 148);
+$negro: rgb(0, 0, 0);
 
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    color: white;
   }
   
   
@@ -19,7 +21,7 @@
   
   
   body {
-    background-color: cornflowerblue;
+    background-color: $violeta;
   }
 
   h1 {

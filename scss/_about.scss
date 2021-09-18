@@ -1,9 +1,15 @@
+$azul: rgb(21, 0, 80);
+$violeta: rgb(63, 0, 113);
+$violeta_claro: rgb(97, 0, 148);
+$negro: rgb(0, 0, 0);
+
 .about {
     display: flex;
     flex-wrap: wrap;
     padding: 4em 0 4em 0;
     margin: 4em 0 0 0;
-    background-color: bisque;
+    background-color: $violeta;
+    justify-content: center;
 }
 
 
@@ -19,7 +25,8 @@ img {
 @media (min-width: 1px) and (max-width: 991.98px) {
     img {
         justify-content: center;
-        width: 22em;
+        width: 20rem;
+        height: auto;
         align-items: center;
     }
 }
