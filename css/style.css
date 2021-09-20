@@ -158,6 +158,26 @@ img {
   background-color: #610094;
 }
 
+.glosario h2 {
+  font-size: 3rem;
+}
+
+.glosario_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.glosario_item {
+  background-color: #610094;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+}
+
+.glosario_item h3 {
+  font-size: 2rem;
+}
+
 p {
   justify-content: center;
   text-align: center;
@@ -168,6 +188,27 @@ p {
   text-align: center;
 }
 
+.sub_title_ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+/* * * * * * * * * * * MEDIA QUERIES * * * * * * * * * * * * */
+/* IPAD */
+@media (min-width: 1px) and (max-width: 991.98px) {
+  .glosario_grid {
+    grid-template-columns: 100%;
+  }
+}
+/* COMPUTADORA CHICA */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .glosario_grid {
+    grid-template-columns: 50% 50%;
+  }
+}
 .contacto {
   background-color: #3f0071;
 }
