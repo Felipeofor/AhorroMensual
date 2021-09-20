@@ -20,7 +20,7 @@ body {
 h1, h3, h2 {
   text-align: center;
   justify-content: center;
-  margin-top: 2em;
+  margin-top: 2rem;
 }
 
 /********************************FORMULARIO****************************/
@@ -47,9 +47,10 @@ h1, h3, h2 {
   margin: 2rem 0 2rem 0;
   font-family: courier, sans-serif;
   font-weight: 600;
+  background-color: #610094;
   font-size: 2rem;
   text-align: center;
-  color: #202125;
+  color: white;
   cursor: pointer;
   max-width: 260px;
   width: 100%;
@@ -60,7 +61,7 @@ h1, h3, h2 {
 }
 
 .add:hover {
-  color: rgba(71, 126, 232, 0.7);
+  color: #150050;
   outline-color: rgba(71, 126, 232, 0);
   outline-offset: 300px;
 }
@@ -69,6 +70,11 @@ h1, h3, h2 {
 .navbar {
   border-bottom: 1px black solid;
   background-color: #150050;
+}
+
+.navbar-toggler {
+  background-color: #3f0071;
+  border-color: #610094;
 }
 
 /********************************TABLA****************************/
@@ -116,7 +122,7 @@ th {
 
 img {
   display: flex;
-  width: 40em;
+  width: 44em;
 }
 
 /* * * * * * * * * * * MEDIA QUERIES * * * * * * * * * * * * */
@@ -127,6 +133,11 @@ img {
     width: 20rem;
     height: auto;
     align-items: center;
+  }
+
+  .about {
+    margin: 0;
+    padding: 0 0 1rem 0;
   }
 }
 /* COMPUTADORA CHICA */
@@ -159,12 +170,14 @@ p {
 
 .contacto {
   background-color: #3f0071;
-  padding: 1em 0 4em 0;
 }
 
-.row {
-  --bs-gutter-x: none;
-  --bs-gutter-y: 0;
+.contacto__contenido {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  margin: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

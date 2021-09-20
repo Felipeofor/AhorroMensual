@@ -15,7 +15,7 @@ $negro: rgb(0, 0, 0);
 
 img {
     display: flex;
-    width: 40em;
+    width: 44em;
 }
 
 /* * * * * * * * * * * MEDIA QUERIES * * * * * * * * * * * * */
@@ -28,6 +28,10 @@ img {
         width: 20rem;
         height: auto;
         align-items: center;
+    }
+    .about{
+        margin: 0;
+        padding: 0 0 1rem 0;
     }
 }
 

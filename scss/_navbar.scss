@@ -7,4 +7,9 @@ $negro: rgb(0, 0, 0);
 .navbar {
     border-bottom: 1px $negro solid;
     background-color: $azul;
-  }
+}
+
+.navbar-toggler {
+  background-color: $violeta;
+  border-color: $violeta_claro;
+}

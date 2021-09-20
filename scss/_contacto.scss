@@ -5,9 +5,11 @@ $negro: rgb(0, 0, 0);
 
 .contacto {
     background-color: $violeta;
-    padding: 1em 0 4em 0;
 }
-.row {
-    --bs-gutter-x: none;
-    --bs-gutter-y: 0;
+.contacto__contenido {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin: 2rem;
 }
