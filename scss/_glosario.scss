@@ -43,6 +43,10 @@ p {
 .sub_title {
     display:flex;
     text-align: center;
+    font-size: 2rem;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px $violeta_claro, 0 0 40px $violeta_claro,
+      0 0 50px white, 0 0 60px $violeta_claro, 0 0 70px $violeta_claro;
+    margin: 0 0 2rem 0;
 }
 
 .sub_title_ul{

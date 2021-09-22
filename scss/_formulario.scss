@@ -23,6 +23,12 @@ $negro: rgb(0, 0, 0);
   text-decoration: none;
 }
 
+.titulo{
+  font-size: 2rem;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px $violeta, 0 0 40px $violeta,
+    0 0 10px $violeta, 0 0 60px $violeta, 0 0 70px $violeta;
+}
+
 .add {
   margin: 2rem 0 2rem 0;
 	font-family: courier, sans-serif;
@@ -38,6 +44,8 @@ $negro: rgb(0, 0, 0);
   outline-color: $azul;
   outline-offset: 10px;
   transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px $violeta_claro, 0 0 40px $violeta_claro,
+  0 0 50px white, 0 0 40px $violeta_claro, 0 0 70px $violeta_claro;
 }
 
 .add:hover {

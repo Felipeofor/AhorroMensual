@@ -5,7 +5,15 @@ $negro: rgb(0, 0, 0);
 
 .contacto {
     background-color: $violeta;
+    margin: 2rem;
 }
+
+.contacto h2{
+    font-size: 2rem;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px $violeta_claro, 0 0 40px $violeta_claro,
+      0 0 50px white, 0 0 60px $violeta_claro, 0 0 70px $violeta_claro;
+}
+
 .contacto__contenido {
     display: flex;
     justify-content: space-around;
