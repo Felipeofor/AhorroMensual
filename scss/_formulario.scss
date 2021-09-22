@@ -4,11 +4,17 @@ $violeta: rgb(63, 0, 113);
 $violeta_claro: rgb(97, 0, 148);
 $negro: rgb(0, 0, 0);
 
-.formulario {
+.formulario__cuerpo {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 3rem 0 2rem 0;
+}
+
+.formulario {
+  background: url('../imagenes/wave.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .formulario__input{
@@ -24,6 +30,7 @@ $negro: rgb(0, 0, 0);
 }
 
 .titulo{
+  padding: 2rem 0;
   font-size: 2rem;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px $violeta, 0 0 40px $violeta,
     0 0 10px $violeta, 0 0 60px $violeta, 0 0 70px $violeta;
