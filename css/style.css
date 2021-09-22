@@ -34,6 +34,8 @@ h1, h3, h2 {
   background: url("../imagenes/wave.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  align-content: center;
+  align-items: center;
 }
 
 .formulario__input {
@@ -42,6 +44,26 @@ h1, h3, h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.lmode {
+  border-radius: 100%;
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 10px;
+  border: none;
+  background: url("../imagenes/sol.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 15%;
+  left: 95%;
+}
+
+.lmode:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .input {
@@ -78,6 +100,14 @@ h1, h3, h2 {
   outline-offset: 300px;
 }
 
+/* * * * * * * * * * * MEDIA QUERIES * * * * * * * * * * * * */
+/* IPAD */
+@media (min-width: 1px) and (max-width: 991.98px) {
+  .lmode {
+    top: 30%;
+    left: 80%;
+  }
+}
 /********************************NAVBAR****************************/
 .navbar {
   border-bottom: 1px black solid;
@@ -213,7 +243,6 @@ img {
 }
 
 .glosario_item {
-  background-color: #610094;
   padding: 50px;
   text-align: center;
   border-radius: 50px;
@@ -263,7 +292,7 @@ p {
 }
 .contacto {
   background-color: #3f0071;
-  margin: 2rem;
+  padding: 2rem;
 }
 
 .contacto h2 {
@@ -277,6 +306,62 @@ p {
   align-content: center;
   align-items: center;
   margin: 2rem;
+}
+
+body.lightMode {
+  background-color: #B8B5FF;
+  color: black;
+}
+body.lightMode * {
+  color: black;
+}
+body.lightMode .lmode {
+  background: url("../imagenes/luna.png");
+}
+body.lightMode .navbar {
+  background-color: #B8B5FF;
+  border-bottom: 1px white solid;
+}
+body.lightMode .about {
+  background-color: #B8B5FF;
+}
+body.lightMode .contacto {
+  background-color: #7868E6;
+}
+body.lightMode .glosario {
+  background-color: #EDEEF7;
+}
+body.lightMode .formulario {
+  background: url("../imagenes/wave1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  align-items: center;
+}
+body.lightMode .add {
+  background-color: #7868E6;
+  outline-color: #EDEEF7;
+  outline-offset: 10px;
+  transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #B8B5FF, 0 0 40px #B8B5FF, 0 0 50px white, 0 0 40px #B8B5FF, 0 0 70px #B8B5FF;
+}
+body.lightMode .tabla__origen__tabla {
+  border-radius: 50px;
+  background: #7868E6;
+  box-shadow: 30px 30px 60px #6658c4, -30px 30px 60px #8a78ff;
+}
+body.lightMode .glosario_item {
+  border-radius: 50px;
+  background: #7868E6;
+  box-shadow: 30px 30px 60px #6658c4, -30px 30px 60px #8a78ff;
+}
+body.lightMode .sub_title .contacto h2 {
+  text-shadow: 0 0 10px #6658c4, 0 0 20px #6658c4, 0 0 30px #B8B5FF, 0 0 40px #B8B5FF, 0 0 50px #6658c4, 0 0 60px #B8B5FF, 0 0 70px #B8B5FF;
+  margin: 0 0 2rem 0;
+}
+body.lightMode .titulo {
+  text-shadow: 0 0 10px #7868E6, 0 0 20px #7868E6, 0 0 30px #B8B5FF, 0 0 40px #B8B5FF, 0 0 50px #7868E6, 0 0 60px #B8B5FF, 0 0 70px #B8B5FF;
+  margin: 0 0 2rem 0;
 }
 
 /*# sourceMappingURL=style.css.map */
