@@ -4,15 +4,29 @@ $violeta: rgb(63, 0, 113);
 $violeta_claro: rgb(97, 0, 148);
 $negro: rgb(0, 0, 0);
 
+.tabla__origen{
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
 .tabla__origen__tabla {
   background-color: $violeta_claro;
   display:grid;
-  height: 100%;
+  width: 200px;
+  height: auto;
   width: auto;
   justify-content: center;
   align-content: space-around;
   align-items: center;
   justify-content: center;
+  border-radius: 50px;
+  background: #610094;
+  box-shadow:  30px -30px 60px #31004a,
+           -30px 30px 60px #9200de;
 }
 
 .tabla__origen__tabla__title {

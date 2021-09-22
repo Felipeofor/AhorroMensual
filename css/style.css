@@ -86,15 +86,28 @@ h1, h3, h2 {
 }
 
 /********************************TABLA****************************/
+.tabla__origen {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
 .tabla__origen__tabla {
   background-color: #610094;
   display: grid;
-  height: 100%;
+  width: 200px;
+  height: auto;
   width: auto;
   justify-content: center;
   align-content: space-around;
   align-items: center;
   justify-content: center;
+  border-radius: 50px;
+  background: #610094;
+  box-shadow: 30px -30px 60px #31004a, -30px 30px 60px #9200de;
 }
 
 .tabla__origen__tabla__title {
@@ -173,13 +186,18 @@ img {
 .glosario_grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5rem;
+  row-gap: 5rem;
+  margin: 0 5rem;
 }
 
 .glosario_item {
   background-color: #610094;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  padding: 50px;
   text-align: center;
+  border-radius: 50px;
+  background: #610094;
+  box-shadow: 30px -30px 60px #31004a, -30px 30px 60px #9200de;
 }
 
 .glosario_item h3 {
@@ -209,12 +227,14 @@ p {
 @media (min-width: 1px) and (max-width: 991.98px) {
   .glosario_grid {
     grid-template-columns: 100%;
+    margin: 0 1rem;
   }
 }
 /* COMPUTADORA CHICA */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .glosario_grid {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 1rem;
   }
 }
 .contacto {
