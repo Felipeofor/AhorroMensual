@@ -320,7 +320,7 @@ body.lightMode * {
 }
 body.lightMode .lmode {
   background: url("../imagenes/luna.png");
-  top: 24%;
+  top: 20%;
   left: 48%;
 }
 body.lightMode .navbar {
