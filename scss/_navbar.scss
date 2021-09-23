@@ -12,6 +12,9 @@ $negro: rgb(0, 0, 0);
 .navbar-toggler {
   background-color: $violeta;
   border-color: $violeta_claro;
+  background: url('../imagenes/icon.svg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar-brand {

@@ -13,6 +13,7 @@ body.lightMode{
 
     .lmode{
         background: url('../imagenes/luna.png');
+        top: 24%; left: 48%;
     }
 
     .navbar{
@@ -75,4 +76,10 @@ body.lightMode{
         0 0 50px $azul_oscuro, 0 0 60px $azul_claro, 0 0 70px $azul_claro;
       margin: 0 0 2rem 0;
     }
+
+    .navbar-toggler {
+        background-color: $azul_oscuro;
+        border-color: $azul_claro;
+    }
+
 }
