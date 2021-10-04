@@ -1,8 +1,8 @@
 # AhorroMensual
 
-Calculadora de ahorro.En desarrollo
+Calculadora de ahorro
 
-Proyecto personal. 
+Proyecto para uso personal. 
 
 
 
